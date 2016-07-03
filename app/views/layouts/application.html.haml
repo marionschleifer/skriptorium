@@ -1,0 +1,22 @@
+!!!
+%html
+  %head
+    %meta{:content => "bToDMfQa1ttnQ5DKWs_kgAJevLy5ajjZ0cxmaFB3ntk", :name => "google-site-verification"}/
+    %title Skriptorium
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body
+    %nav.navbar.navbar-default
+      .container-fluid
+        .navbar-header
+          =image_tag("logo.svg", class: "logo")
+          %span.link=link_to("Textarbeit", welcome_index_path, class: "nav-link")
+          = "|"
+          %span.link=link_to("Forschung Vermittlung", welcome_index_path, class: "nav-link")
+          = "|"
+          %span.link=link_to("Archivierung", welcome_index_path, class: "nav-link")
+          = "|"
+          %span.link=link_to("Über mich", welcome_index_path, class: "nav-link")
+    = yield
+
