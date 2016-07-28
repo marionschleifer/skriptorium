@@ -28,6 +28,7 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'rails_12factor', group: :production
 # bootstrap
 gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'rails-assets-tether', '>= 1.1.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
