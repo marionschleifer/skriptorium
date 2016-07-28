@@ -22,10 +22,13 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+# use haml instead of erb
 gem 'haml', '~> 4.0', '>= 4.0.7'
-
+# deployment
 gem 'rails_12factor', group: :production
+# bootstrap
+gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'rails-assets-tether', '>= 1.1.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

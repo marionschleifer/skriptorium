@@ -1,0 +1,57 @@
+!!!
+%html
+  %head
+    %meta{:content => "bToDMfQa1ttnQ5DKWs_kgAJevLy5ajjZ0cxmaFB3ntk", :name => "google-site-verification"}/
+    %title Skriptorium
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    %link{:href => "https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'", :rel => "stylesheet", :type => "text/css"}
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body
+    %div.navigation
+      %div.logo=image_tag("logo.svg")
+      %div.menu
+        %ul.nav.nav-tabs
+          %li.nav-item
+            %a.nav-link.active.textarbeit{:href => "#"} Textarbeit
+          %li.nav-item
+            %a.nav-link.active.forschung{:href => "#"} Forschung & Vermittlung
+          %li.nav-item
+            %a.nav-link.active.archivierung{:href => "#"} Archivierung
+          %li.nav-item
+            %a.nav-link.active.uber{:href => "#"} Über mich
+    = yield
+    %div.container.footer
+      %div.row.really-small-text
+        %div.col-sm-6
+          %div.row
+            %div.col-sm-3.small-column.grey-text
+              ="Kontakt"
+            %div.col-sm-3.large-column
+              ="SKRIPTORIUM GMBH"
+              %br
+              ="Karin Schleifer"
+            %div.col-sm-3
+              ="Acherweg 19"
+              %br
+              ="6370 Stans"
+            %div.col-sm-3
+              ="078 630 34 84"
+              %br
+              ="ks@skriptorium.ch"
+        %div.col-sm-6
+          %div.row
+            %div.col-sm-3.small-column.grey-text
+              ="Atelier"
+            %div.col-sm-3.large-column
+              ="Höfli, Stans"
+              %br
+              ="2. Stock (Eingang Lit.z)"
+            %div.col-sm-3.grey-text
+              ="Gestaltung"
+              %br
+              ="Web"
+            %div.col-sm-3
+              ="ristretto.ch"
+              %br
+              ="Marion Schleifer"
