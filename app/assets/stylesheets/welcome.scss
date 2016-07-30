@@ -3,25 +3,23 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .main {
-  //background: url(background.jpg);
-  //background-size: contain;
-  //background-repeat: no-repeat;
-  //width: 100%;
-  //height: 0;
-  //padding-top: 68%;
-  //background-position: 0px -220px;
-
-
+  background-color: #B5C2CE;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 
   .writing {
-    //color: white;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 18%;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    padding-top: 25%;
     font-family: 'Slabo 27px', serif;
     font-style: italic;
+    padding-bottom: 5%;
   }
+
 }
 
 
