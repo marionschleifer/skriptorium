@@ -1,4 +1,46 @@
-=render template: "layouts/template"
+%div.box
+  %div.information
+    %div.container
+      %div.row
+        %div.col-xs-4.with-line
+          %h6.blue="TEXTE ALLER ART"
+          %div.info
+            %span="Journalistische Texte"
+            %span="Historische Werke"
+            %span="Broschüren + Webseiten"
+            %span="Berichte + Reportagen"
+            %span="Politische Kommunikation"
+          %span
+            =link_to "Publikationsliste (PDF)", asset_path("publikationsliste.pdf")
+          %span
+            =image_tag("kantonsgeschichte.jpg", class: "picture_kantonsgeschichte")
+          %div.space
+            %span
+              =link_to "Vom Bannalpstreit zum Wellenberg (PDF)"
+          %div.space
+            %span
+              =link_to "Kulturlandschaft 1850 - 1930 (PDF)"
+        %div.col-xs-4.with-line
+          %h6.blue="IDEEN + KONZEPTE"
+          %div.info
+            %span="Buchkonzepte"
+            %span="Beratung Buchprojekte"
+            %span="Jubiläen"
+            %span="Ausstellungen"
+            %span="Kampagnen"
+          %span
+            =link_to image_tag("link_hotelgeschichten.jpg", class: "picture_hotelgeschichten"), asset_path("hotelgeschichten.pdf")
+        %div.col-xs-4
+          %h6.blue="REDAKTION & LEKTORAT"
+          %div.info
+            %span="Redigieren einzelner Texte"
+            %span="Redaktion"
+            %span="Gesamtpublikation"
+            %span="Lektorat"
+          %span
+            =link_to image_tag("link_npg.jpg", class: "picture_npg"), asset_path("nidwalden_politische_geschichte.pdf")
+  %div.writing-textarbeit
+    %h3="„Bleiwüste, Schreibstau, Buchstabensalat?"
+    %h3="Meine Texte sind zugeschnitten auf Ihre Botschaft"
+    %h3="und auf Ihr Zielpublikum.“"
 
-%div.container
-  .background="Hello"
