@@ -1,12 +1,18 @@
+
+body {
+  padding-top: 5%;
+}
+
+.logo {
+  height: 70px;
+}
+
 .navigation {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 2%;
 
-  .logo {
-    display:inline-block;
-  }
 
   .menu {
     float: right;
@@ -34,11 +40,10 @@
 
 .footer {
   background-color: rgb(48, 70, 109);
-  width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
   color: white;
   padding: 8px;
+  padding-left: 15%;
+  padding-right: 10%;
 
   .small-column {
     width: 15%;
@@ -58,3 +63,66 @@
 
 }
 
+// Pages
+
+.box {
+  padding-top: 3%;
+
+  .information {
+    padding: 3%;
+    width: 70%;
+    height: 60%;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: white;
+
+    .info {
+      margin-bottom: 7%;
+    }
+
+    .space {
+      margin-top: 12%;
+    }
+
+    .col-xs-4 {
+      padding-left: 3%;
+    }
+
+    .with-line {
+      border-right: 1px solid rgb(82, 104, 170);
+    }
+
+    h6 {
+      margin-bottom: 9%;
+    }
+
+    span {
+      font-size: 90%;
+      display: block;
+
+      a {
+        color: rgb(82, 104, 170);
+        font-size: 13px;
+      }
+    }
+
+    .normal-space {
+      margin-bottom: 9%;
+    }
+
+    .extra-space {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.writing {
+  color: white;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 3%;
+  font-family: 'Slabo 27px', serif;
+  font-style: italic;
+  padding-bottom: 4%;
+}

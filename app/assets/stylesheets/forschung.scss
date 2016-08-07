@@ -2,76 +2,28 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.box-forschung {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 570px;
-  margin-top: 2%;
-  background-color: rgb(90, 191, 184);
-  padding-top: 3%;
-
-  .information {
-    padding: 3%;
-    width: 80%;
-    height: 70%;
-    margin-right: 10%;
-    margin-left: 10%;
-    background-color: white;
-
-    .info {
-      margin-bottom: 17%;
-    }
-
-    .col-xs-4 {
-      padding-left: 3%;
-    }
-
-    .with-line {
-      border-right: 1px solid rgb(82, 104, 170);
-    }
-
-    h6.green {
-      color: rgb(90, 191, 184);
-    }
-
-    .normal-space {
-      margin-bottom: 9%;
-    }
-
-    .more-space {
-      margin-bottom: 16%;
-    }
-
-    span {
-      font-size: 90%;
-      display: block;
-
-      .waffenbrueder {
-        width: 200px;
-        height: 130px;
-      }
-
-      .ausstellungstafel {
-        width: 200px;
-        height: 130px;
-      }
-
-      .hotelgeschichten {
-        width: 200px;
-        height: 130px;
-      }
-
-    }
-  }
-
-  .writing-forschung {
-    color: white;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3%;
-    font-family: 'Slabo 27px', serif;
-    font-style: italic;
-  }
+.forschung-blue {
+  background-color: rgb(90, 191, 184)
 }
+
+h6.green {
+  color: rgb(90, 191, 184);
+}
+
+.more-space {
+  margin-bottom: 16%;
+}
+
+.waffenbrueder {
+  width: 80%;
+}
+
+.ausstellungstafel {
+  width: 80%;
+  height: 60%;
+}
+
+.hotelgeschichten {
+  width: 80%;
+}
+

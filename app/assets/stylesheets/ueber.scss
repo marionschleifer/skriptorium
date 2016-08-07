@@ -2,73 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.box-forschung {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 570px;
-  margin-top: 2%;
+.ueber-blue {
   background-color: #3973ac;
-  padding-top: 3%;
-
-  .information {
-    padding: 3%;
-    width: 80%;
-    height: 70%;
-    margin-right: 10%;
-    margin-left: 10%;
-    background-color: white;
-
-    .info {
-      margin-bottom: 17%;
-    }
-
-    .col-xs-4 {
-      padding-left: 3%;
-    }
-
-    .with-line {
-      border-right: 1px solid rgb(82, 104, 170);
-    }
-
-    h6.green {
-      color: #3973ac;
-    }
-
-    .normal-space {
-      margin-bottom: 9%;
-    }
-
-    span {
-      font-size: 90%;
-      display: block;
-
-      a {
-        color: rgb(82, 104, 170);
-      }
-    }
-
-    .foto {
-      width: 100px;
-    }
-
-    .bold {
-      font-weight: bold;
-    }
-
-    .extra-space {
-      margin-bottom: 10px;
-    }
-
-  }
-
-  .writing-ueber {
-    color: white;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3%;
-    font-family: 'Slabo 27px', serif;
-    font-style: italic;
-  }
 }
+
+h6.green {
+  color: #3973ac;
+}
+
+.foto {
+  width: 100px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+

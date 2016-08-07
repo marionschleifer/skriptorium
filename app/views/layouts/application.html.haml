@@ -8,20 +8,20 @@
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
   %body
-    %div.navigation
-      %div.logo=image_tag("logo.svg")
-      %div.menu
-        %ul.nav.nav-tabs
-          %li.nav-item
-            %a.nav-link.active.textarbeit{:href => "/textarbeit/index"} Textarbeit
-          %li.nav-item
-            %a.nav-link.active.entwicklung{:href => "/forschung/index"} Forschung & Vermittlung
-          %li.nav-item
-            %a.nav-link.active.archivierung{:href => "#"} Archivierung
-          %li.nav-item
-            %a.nav-link.active.uber{:href => "/ueber/index"} Über mich
+    %nav.navbar.navbar-light.bg-faded
+      %a.navbar-brand{:href => "#",}
+        =image_tag("logo.svg", class: "logo")
+      %ul.nav.navbar-nav
+        %li.nav-item
+          %a.nav-link.active.textarbeit{:href => "/textarbeit/index"} Textarbeit
+        %li.nav-item
+          %a.nav-link.active.entwicklung{:href => "/forschung/index"} Forschung & Vermittlung
+        %li.nav-item
+          %a.nav-link.active.archivierung{:href => "/archivierung/index"} Archivierung
+        %li.nav-item
+          %a.nav-link.active.uber{:href => "/ueber/index"} Über mich
     = yield
-    %div.container.footer
+    %div.footer
       %div.row.really-small-text
         %div.col-sm-6
           %div.row

@@ -1,0 +1,2 @@
+module ArchivierungHelper
+end

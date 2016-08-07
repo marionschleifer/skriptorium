@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'textarbeit/index'
   get 'forschung/index'
   get 'ueber/index'
+  get 'archivierung/index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
