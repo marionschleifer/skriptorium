@@ -1,31 +1,32 @@
 %div.box.archivierung-green
   %div.information
-    %div.container
-      %div.row
-        %div.col-xs-4.with-line
-          %h6.green.normal-space="BERATUNG"
-          %div.info-sauordnung
-            %span.extra-space="Augenschein + erstes Feedback"
-            %span.extra-space="Kurzgutachten mit Handlungsoptionen"
-            %span.extra-space="Empfehlungen"
-          %span
-            =image_tag("sauordnung.jpg", class: "sauordnung")
-        %div.col-xs-4.with-line
-          %h6.green.normal-space="ERSCHLIESSUNG"
-          %div.info-erschliessung
-            %span.extra-space="Kleinere Erschliessungsprojekte"
-            %span.extra-space="Bewertung & Ordnen"
-            %span.extra-space="Verzeichnisse erstellen"
-          %span
-            =image_tag("erschliessung.jpg", class: "erschliessung")
-        %div.col-xs-4
-          %h6.green.normal-space="PROJEKTLEITUNG"
-          %div.info-archivierung
-            %span.extra-space="Anleitung Ihrer Fach- oder Hilfskraft"
-            %span.extra-space="Begleitung Ihres Erschliessungsprojekts"
-            %span.extra-space="Qualitätskontrolle"
-          %span
-            =image_tag("archiv.jpg", class: "archiv")
+    %div.row
+      %div.col-xs-4
+        %h6.green.normal-space="BERATUNG"
+      %div.col-xs-4
+        %h6.green.normal-space="ERSCHLIESSUNG"
+      %div.col-xs-4
+        %h6.green.normal-space="PROJEKTLEITUNG"
+    %div.row
+      %div.col-xs-4
+        %span.extra-space="Augenschein + erstes Feedback"
+        %span.extra-space="Kurzgutachten mit Handlungsoptionen"
+        %span.extra-space="Empfehlungen"
+      %div.col-xs-4
+        %span.extra-space="Kleinere Erschliessungsprojekte"
+        %span.extra-space="Bewertung & Ordnen"
+        %span.extra-space="Verzeichnisse erstellen"
+      %div.col-xs-4
+        %span.extra-space="Anleitung Ihrer Fach- oder Hilfskraft"
+        %span.extra-space="Begleitung Ihres Erschliessungsprojekts"
+        %span.extra-space="Qualitätskontrolle"
+    %div.row.picture
+      %span.col-xs-4
+        =image_tag("sauordnung.jpg", class: "sauordnung")
+      %span.col-xs-4
+        =image_tag("erschliessung.jpg", class: "erschliessung")
+      %span.col-xs-4
+        =image_tag("archiv.jpg", class: "archiv")
   %div.writing
     %h3="„Chaos im Archiv?"
     %h3="Mein Ziel ist nicht Perfektion, sondern eine"

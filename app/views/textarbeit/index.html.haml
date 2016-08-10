@@ -1,44 +1,51 @@
 %div.box.textarbeit-blue
   %div.information
-    %div.container
-      %div.row
-        %div.col-xs-4.with-line
-          %h6.blue="TEXTE ALLER ART"
-          %div.info
-            %span="Journalistische Texte"
-            %span="Historische Werke"
-            %span="Broschüren + Webseiten"
-            %span="Berichte + Reportagen"
-            %span="Politische Kommunikation"
+    %div.row
+      %div.col-xs-4
+        %h6.blue="TEXTE ALLER ART"
+      %div.col-xs-4
+        %h6.blue="IDEEN + KONZEPTE"
+      %div.col-xs-4
+        %h6.blue="REDAKTION & LEKTORAT"
+    %div.row
+      %div.col-xs-4
+        %div.info
+          %span.extra-space="Journalistische Texte"
+          %span.extra-space="Historische Werke"
+          %span.extra-space="Broschüren + Webseiten"
+          %span.extra-space="Berichte + Reportagen"
+          %span.extra-space="Politische Kommunikation"
           %span
-            =link_to "Publikationsliste (PDF)", asset_path("publikationsliste.pdf")
-          %span
-            =image_tag("kantonsgeschichte.jpg", class: "picture_kantonsgeschichte")
-          %div.space
-            %span
-              =link_to "Vom Bannalpstreit zum Wellenberg (PDF)"
-          %div.space
-            %span
-              =link_to "Kulturlandschaft 1850 - 1930 (PDF)"
-        %div.col-xs-4.with-line
-          %h6.blue="IDEEN + KONZEPTE"
-          %div.info
-            %span="Buchkonzepte"
-            %span="Beratung Buchprojekte"
-            %span="Jubiläen"
-            %span="Ausstellungen"
-            %span="Kampagnen"
-          %span
-            =link_to image_tag("link_hotelgeschichten.jpg", class: "picture_hotelgeschichten"), asset_path("hotelgeschichten.pdf")
-        %div.col-xs-4
-          %h6.blue="REDAKTION & LEKTORAT"
-          %div.info
-            %span="Redigieren einzelner Texte"
-            %span="Redaktion"
-            %span="Gesamtpublikation"
-            %span="Lektorat"
-          %span
-            =link_to image_tag("link_npg.jpg", class: "picture_npg"), asset_path("nidwalden_politische_geschichte.pdf")
+          =link_to "Publikationsliste (PDF)", asset_path("publikationsliste.pdf")
+      %div.col-xs-4
+        %div.info
+          %span.extra-space="Buchkonzepte"
+          %span.extra-space="Beratung Buchprojekte"
+          %span.extra-space="Jubiläen"
+          %span.extra-space="Ausstellungen"
+          %span="Kampagnen"
+      %div.col-xs-4
+        %div.info
+          %span.extra-space="Redigieren einzelner Texte"
+          %span.extra-space="Redaktion"
+          %span.extra-space="Gesamtpublikation"
+          %span="Lektorat"
+    %div.row.picture
+      %div.col-xs-4
+        %span
+          =image_tag("kantonsgeschichte.jpg", class: "picture_kantonsgeschichte")
+        %div
+          %span.link
+            =link_to "Vom Bannalpstreit zum Wellenberg (PDF)"
+        %div
+          %span.link
+            =link_to "Kulturlandschaft 1850 - 1930 (PDF)"
+      %div.col-xs-4
+        %span
+          =link_to image_tag("link_hotelgeschichten.jpg", class: "picture_hotelgeschichten"), asset_path("hotelgeschichten.pdf")
+      %div.col-xs-4
+        %span
+          =link_to image_tag("link_npg.jpg", class: "picture_npg"), asset_path("nidwalden_politische_geschichte.pdf")
   %div.writing
     %h3="„Bleiwüste, Schreibstau, Buchstabensalat?"
     %h3="Meine Texte sind zugeschnitten auf Ihre Botschaft"
