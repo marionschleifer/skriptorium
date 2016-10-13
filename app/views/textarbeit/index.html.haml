@@ -33,13 +33,13 @@
     %div.row.picture
       %div.col-xs-4
         %span
-          =image_tag("kantonsgeschichte.jpg", class: "picture_kantonsgeschichte")
+          =link_to image_tag("link_npg.jpg", class: "picture_npg"), asset_path("nidwalden_politische_geschichte.pdf")
       %div.col-xs-4
         %span
           =link_to image_tag("link_hotelgeschichten.jpg", class: "picture_hotelgeschichten"), asset_path("hotelgeschichten.pdf")
       %div.col-xs-4
         %span
-          =link_to image_tag("link_npg.jpg", class: "picture_npg"), asset_path("nidwalden_politische_geschichte.pdf")
+          =image_tag("kantonsgeschichte.jpg", class: "picture_kantonsgeschichte")
   %div.writing
     %h3="«Bleiwüste, Schreibstau, Buchstabensalat?"
     %h3="Meine Texte sind zugeschnitten auf Ihre Botschaft"
